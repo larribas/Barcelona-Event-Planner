@@ -38,7 +38,7 @@ if python_version() < '2.6.4':
 	sys.exit(1)
 
 if len(sys.argv) != 2:
-	print "Usage: python <script> 'k:v, [k:v, [k:v, [...]]]'"
+	print "Usage: python main.py 'k:v, [k:v, [k:v, [...]]]'"
 	sys.exit(2)
 
 # 1) Parse the query

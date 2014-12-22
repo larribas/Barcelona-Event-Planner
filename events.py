@@ -50,6 +50,7 @@ class Event(GeolocatedObject):
     def __init__(self, name, place, neighborhood, address, date, starts_at, ends_at, lat, lon):
         self.name = name
         self.place = place
+        self.neighborhood = neighborhood
         self.address = address
         self.date = date
         self.starts_at = starts_at
